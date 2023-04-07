@@ -44,3 +44,7 @@ void input() {
 }
 
 
+int main()
+{
+    input();
+}
