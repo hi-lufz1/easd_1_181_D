@@ -48,10 +48,18 @@ void selectionsort() {
     int i, lf, min_idx;
 
     for (i = 0; i < n - 1; i++) {
-        min_idx = i;
+        min_idx = lf;
+
+        for (lf = lf + 1; i < n; lf++) {                              
+            if (latif[i] < latif [min_idx] ) {                            
+                min_idx = i;
+            }
+        }                         
 
     }
 }
+
+
 
 
 int main()
