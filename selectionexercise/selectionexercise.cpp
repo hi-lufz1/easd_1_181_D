@@ -63,7 +63,17 @@ void selectionsort() {
     }
    
 }
-   
+void display() { 
+    cout << endl;                                                       
+    cout << "\n===============================" << endl;                
+    cout << "Element Array yang telah tersusun" << endl;                
+    cout << "=================================" << endl;                
+
+    for (int i = 0; i < n; i++) {                                       
+        cout << latif[i] << endl;                                      
+    }
+    cout << endl;                                                      
+}
 
 
 
