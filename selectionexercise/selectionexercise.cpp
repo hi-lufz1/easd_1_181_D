@@ -66,4 +66,6 @@ void selectionsort() {
 int main()
 {
     input();
+    selectionsort();
+
 }
