@@ -47,14 +47,15 @@ void selectionsort() {
 
     int i, lf, min_idx;
 
-    for (i = 0; i < n - 1; i++) {
+    for (lf = 0; lf < n - 1; lf++) {
         min_idx = lf;
 
-        for (lf = lf + 1; i < n; lf++) {                              
+        for (i = lf + 1; i < n; i++) {                              
             if (latif[i] < latif [min_idx] ) {                            
                 min_idx = i;
             }
-        }                         
+        }             
+         swap(latif[min_idx], latif[lf]);        
 
     }
 }
