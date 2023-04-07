@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 // 1.  Algoritma dibutuhkan untuk menyelesaikan suatu masalah karena algoritma adalah serangkaian langkah-langkah logis
 // yang terdefinisi dengan baik yang dapat diikuti untuk menyelesaikan suatu masalah atau mencapai suatu tujuan.
 // 2. Data struktur dapat diklasifikasikan menjadi dua jenis yaitu static (seperti array) dan dynamic (seperti linked list).
@@ -9,3 +10,8 @@ using namespace std;
 // Karena insertion sort memiliki kompleksitas waktu O(n^2) yang lebih baik daripada algoritma bubble sort atau selection sort pada ukuran data kecil.
 // 5. Algoritma yang termasuk dalam Quadratic adalah bubble sort, insertion sort, shell sort dan selection sort. 
 // Sedangkan algoritma yang termasuk dalam Loglinear adalah quicksort, dan mergesort
+
+int latif[101];
+int n;
+
+
