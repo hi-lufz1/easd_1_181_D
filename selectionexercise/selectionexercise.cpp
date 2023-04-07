@@ -56,10 +56,14 @@ void selectionsort() {
             }
         }             
          swap(latif[min_idx], latif[lf]);        
-
+         cout << "\nPass " << lf << ": ";                                 
+         for (int k = 0; k < n; k++) {                                  
+             cout << latif[k] << " ";                                     
+         }
     }
+   
 }
-
+   
 
 
 
