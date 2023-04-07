@@ -27,7 +27,7 @@ void input() {
         }
         else
         {
-            cout << "\nArray yang anda masukkan maksimal 101 elemen. \n";   
+            cout << "\nArray yang anda masukkan melebihi 101. \n";   
         }
     }
     cout << endl;                                                      
