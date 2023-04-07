@@ -43,6 +43,16 @@ void input() {
     }
 }
 
+void selectionsort() {
+
+    int i, lf, min_idx;
+
+    for (i = 0; i < n - 1; i++) {
+        min_idx = i;
+
+    }
+}
+
 
 int main()
 {
