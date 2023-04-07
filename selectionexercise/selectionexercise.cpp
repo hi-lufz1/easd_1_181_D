@@ -17,7 +17,7 @@ int n;
 void input() {  
     while (true)
     {
-        cout << "Maksimal data array adalah 101";
+        cout << "\nMaksimal data array adalah 101";
         cout << "\nMasukkan Jumlah Data pada Array : "; 
         cin >> n;                                                      
         
@@ -27,7 +27,7 @@ void input() {
         }
         else
         {
-            cout << "\nArray yang anda masukkan melebihi 101. \n";   
+            cout << "\nArray yang anda masukkan melebihi 101 elemen. \n";   
         }
     }
     cout << endl;                                                      
