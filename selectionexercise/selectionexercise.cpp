@@ -7,3 +7,5 @@ using namespace std;
 // kecepatan prosesor komputer, ukuran input data dan jenis data
 // 4. Algoritma yang paling efisien untuk mengurutkan data yang ukurannya kecil adalah insertion sort.
 // Karena insertion sort memiliki kompleksitas waktu O(n^2) yang lebih baik daripada algoritma bubble sort atau selection sort pada ukuran data kecil.
+// 5. Algoritma yang termasuk dalam Quadratic adalah bubble sort, insertion sort, shell sort dan selection sort. 
+// Sedangkan algoritma yang termasuk dalam Loglinear adalah quicksort, dan mergesort
